@@ -1,0 +1,70 @@
+#edituser{
+  height: 100%;
+  display: flex;
+  padding: 0 10rpx;
+  margin-top:100rpx;
+}
+#edituser label{
+  height: 40px;
+  flex: 1;
+  line-height: 40px;
+  text-align: center;
+}
+#edituser input{
+  height: 40px;
+  flex: 2;
+  line-height: 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border:1rpx solid #000;
+  padding-left: 30rpx;
+}
+button{
+  margin-top:50rpx;
+  width: 200rpx;
+  float: right;
+  margin-right: 10rpx;
+}
+
+.bgmark{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, .6);
+  top: 0;
+  left: 0;
+}
+
+.tip-modal{
+  position: absolute;
+  width: 75%;
+  height: 400rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 200rpx auto;
+}
+.tip-modal text{
+  position: absolute;
+  width: 80%;
+  height: 200rpx;
+  overflow: hidden;
+  word-wrap: break-word;
+  left: 50%;
+  margin-left: -40%;
+  top: 50rpx;
+  text-indent: 2em;
+  line-height: 24px;
+  font-size: 18px;
+  padding: 0 10rpx;
+}
+
+.tip-modal button{
+  position: absolute;
+  bottom: 30rpx;
+  left: 50%;
+  margin-left: -100rpx;
+}

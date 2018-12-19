@@ -1,0 +1,6 @@
+<view id='contentWrapper'>
+  <view class='nav-footer'>
+    <button class='btn-link-Ltplus'>{{list.nav1}}</button>
+    <button bindtap="touserInfo" class='btn-link-userinfo'>{{list.nav2}}</button>
+  </view>
+</view>

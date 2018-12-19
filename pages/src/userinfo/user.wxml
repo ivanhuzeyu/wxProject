@@ -1,0 +1,11 @@
+<view id='userpage'>
+  <view class='userinfoshow'>
+    <image class='userphoto' src='{{userinfo.userphoto}}'></image>
+    <text class='userid'>{{userinfo.userid}}</text>
+    <text class='username'>{{userinfo.username}}</text>
+    <button bindtap='editpage' class='edituserinfo'>修改</button>
+  </view>
+  <view class='listmenu'>
+    <text class="menulist-item" wx:for="{{menulist}}" >{{item}}</text>
+  </view>
+</view>

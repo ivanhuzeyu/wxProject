@@ -1,0 +1,13 @@
+<view id='edituser'>
+  <label>用户名:</label>
+  <input type="text" name="username" bindinput='usernameget' value="{{username}}"></input>
+</view>
+<button bindtap='editsubmit'>修改</button>
+
+<!-- modal -->
+<view class='bgmark' wx:if="{{tipmodal.flag}}">
+  <view class="tip-modal">
+    <text>{{tipmodal.msg}}</text>
+    <button bindtap='hidemodal'>知道了</button>
+  </view>
+</view>

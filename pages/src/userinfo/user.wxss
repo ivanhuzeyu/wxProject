@@ -1,0 +1,72 @@
+/* pages/src/userinfo/user.wxss */
+
+#userpage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.userinfoshow {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.userphoto {
+  background: #ccc;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+
+.edituserinfo {
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  top: 25px;
+  right: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.username {
+  position: absolute;
+  height: 20px;
+  width: 80px;
+  top: 10px;
+  line-height: 20px;
+  font-size: 16px;
+  left: 80px;
+}
+
+.userid {
+  position: absolute;
+  height: 20px;
+  width: 80px;
+  top: 40px;
+  line-height: 20px;
+  font-size: 14px;
+  left: 80px;
+}
+
+.listmenu {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.menulist-item {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  background-color: #d3cce84f;
+}
